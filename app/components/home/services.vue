@@ -13,7 +13,7 @@
                 </div>
 
                 <!-- Cards Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
+                <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 place-items-center">
                     <div v-for="(service, index) in services" :key="index"
                         class="group relative bg-white rounded-md p-8  border border-gray-100  hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
 

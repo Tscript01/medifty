@@ -24,8 +24,8 @@
     padding-right:1rem;
 
     @media (min-width: 640px) {
-      padding-left: 5rem;
-      padding-right: 5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
     }
      @media (min-width: 1024px) {
       padding-left: 4rem;
