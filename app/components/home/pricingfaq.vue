@@ -1,17 +1,15 @@
 <template>
     <section id="pricing" class="py-20 md:py-28 bg-[#F5F8FC]">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="container ">
+            <div class="text-center max--3xl mx- mb-16">
                <span class="text-secondary  tracking-wider uppercase text-md">Pricing Insights</span>
-     <h2 class="text-2xl md:text-3xl font-bold text-[#0A2540]">Pricing &amp; Payment FAQs</h2>
+     <h2 class="text-2xl md:text-3xl font-bold text-primary">Pricing &amp; Payment FAQs</h2>
                <p class="text-gray-600 text-lg">Explore the details behind our pricing structure and how each plan supports your goals.</p>
             </div>
 
       
 
             <div class="">
-              
-
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 p-2 md:p-8">
                     <div class="divide-y divide-gray-100">
                         <div 
@@ -25,16 +23,16 @@
                             >
                                 <div class="flex items-center gap-4">
                                     <div class="shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors"
-                                        :class="activePricing === index ? 'bg-[#0A2540] text-white' : 'bg-green-50 text-green-600 group-hover:bg-green-100'"
+                                        :class="activePricing === index ? 'bg-primary text-white' : 'bg-green- text-secondary group-hover:bg-green-10'"
                                     >
                                         <span class="font-bold text-sm">{{ index + 1 }}</span>
                                     </div>
-                                    <span class="font-bold text-lg text-[#0A2540] group-hover:text-green-700 transition-colors">{{ item.question }}</span>
+                                    <span class="font-bold text-lg text-primary group-hover:text-secondary transition-colors">{{ item.question }}</span>
                                 </div>
                                 <span class="shrink-0 mt-1 ml-4">
                                     <svg 
                                         class="h-5 w-5 transform transition-transform duration-300" 
-                                        :class="activePricing === index ? 'rotate-180 text-green-600' : 'text-gray-400'"
+                                        :class="activePricing === index ? 'rotate-180 text-secondary' : 'text-gray-400'"
                                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
                                     >
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
@@ -49,7 +47,7 @@
                                 leave-from-class="transform scale-y-100 opacity-100"
                                 leave-to-class="transform scale-y-95 opacity-0"
                             >
-                                <div v-show="activePricing === index" class="pl-[4.5rem] pr-6 pb-6 text-gray-600 leading-relaxed">
+                                <div v-show="activePricing === index" class="pl-18 pr-6 pb-6 text-gray-600 leading-relaxed">
                                     {{ item.answer }}
                                 </div>
                             </transition>
@@ -60,7 +58,7 @@
 
             <div class="text-center mt-16">
                 <p class="text-gray-500">Still have questions?</p>
-                <a href="mailto:medilyfthelp@gmail.com" class="text-[#0A2540] font-bold hover:text-red-600 underline mt-2 inline-block">Contact our support team</a>
+                <a href="mailto:medilyfthelp@gmail.com" class="text-primary font-bold hover:text-red-600 underline mt-2 inline-block">Contact our support team</a>
             </div>
         </div>
     </section>

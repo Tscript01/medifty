@@ -27,7 +27,7 @@
                         <p class="text-md sm:text-lg text-gray-300 max-w-xl lg:mx-0 mx-auto">
                             Safe, timely, and professional non-emergency medical transport tailored to your needs, 24/7.
                         </p>
-                        <div class="pt-4 hidden md:block">
+                        <div class="pt-4  md:block">
                             <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro" class="px-8 py-3 bg-secondary text-white font- rounded-lg shadow-xl hover:bg-[#0a9ba3ca] transition duration-300 uppercase tracking-wider">
                                  Schedule a Ride
                             </NuxtLink>

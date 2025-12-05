@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-">
+    <div class="bg-[#0a25400c]">
            <main class=" container">
         <section id="services" class="py-20 md:py-28 ">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -30,7 +30,7 @@
                             {{ service.description }}
                         </p>
 
-                        <a href="#"
+                        <!-- <a href="#"
                             class="inline-flex items-center text-sm font-semibold text-[#0A2540] hover:text-red-600 transition-colors">
                             Learn more
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
@@ -38,7 +38,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 5l7 7-7 7" />
                             </svg>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
 

@@ -65,10 +65,10 @@ onUnmounted(() => {
 
 
                 <div class="hidden lg:block">
-                    <button
-                        class="bg-[#0A9BA3] px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+                    <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"  class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+                       
                         Book Now
-                    </button>
+          </NuxtLink>
                 </div>
                 <button @click="toggleMobileNav()" type="button" class="flex lg:hidden focus:outline-none self-center">
                     <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
@@ -131,10 +131,10 @@ onUnmounted(() => {
                                 <NuxtLink @click="toggleMobileNav()" to="#contact">Contact </NuxtLink>
                             </li>
                         </ul>
-                        <button
-                            class="bg-secondary px-6 py-3 text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
-                            Book Now
-                        </button>
+                       <NuxtLink to="https://api.whatsapp.com/send?phone=2348160791374&text=sup%20bro"  class="bg-secondary px-6 mr-3 py-3 truncate text-white font-semibold rounded-lg shadow-md hover:bg-[#0a9ba3ca] cursor-pointer transition duration-200">
+                       
+                        Book Now
+          </NuxtLink>
                         </div>
 
                     </div>
